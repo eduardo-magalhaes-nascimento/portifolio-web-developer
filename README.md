@@ -1,32 +1,36 @@
-# Portfólio Eduardo Henrique
+# Portfólio Web Developer
 
-Portfólio profissional desenvolvido para apresentar o trabalho de Eduardo Henrique como desenvolvedor de sites em Boa Vista, Roraima. O projeto foi pensado para pequenas e médias empresas que precisam de uma presença digital clara, elegante e objetiva.
+Este projeto foi criado a partir do perfil de Eduardo Henrique, com a proposta de transformar uma apresentação profissional em uma experiência digital clara, elegante e funcional.
 
-A interface destaca serviços, projetos conceituais, etapas de trabalho e um formulário demonstrativo de contato. O foco é mostrar como um site pode comunicar profissionalismo, organizar informações importantes e facilitar o primeiro contato entre empresa e cliente.
+A aplicação apresenta uma vitrine para serviços de criação de sites, com foco em pequenos e médios negócios que precisam comunicar melhor sua presença digital, organizar informações importantes e facilitar o primeiro contato com clientes.
 
 ## Sobre o Projeto
 
-Este portfólio funciona como uma vitrine comercial para desenvolvimento de sites. Ele apresenta:
+O projeto é uma single page application voltada para apresentação comercial de serviços digitais. A página reúne conteúdo institucional, seções de serviço, estudos conceituais, argumentos de valor, processo de trabalho e uma área de contato demonstrativa.
+
+Na prática, ele funciona como um modelo completo de portfólio para desenvolvimento de sites, mostrando como uma presença online pode ser estruturada com clareza, hierarquia visual e foco em conversão.
+
+Ele apresenta:
 
 - uma página inicial com chamada direta para orçamento;
 - serviços como landing pages, sites institucionais, design responsivo, manutenção e integrações;
 - projetos conceituais para demonstrar direção visual e raciocínio de produto;
-- segmentos atendidos, como clínicas, oficinas, escritórios, restaurantes e negócios locais;
-- processo de trabalho em etapas;
+- segmentos de negócio que podem se beneficiar de uma presença digital mais organizada;
+- processo de trabalho dividido em etapas;
 - área de contato com formulário demonstrativo e espaço preparado para WhatsApp/e-mail.
 
-Os projetos exibidos, como Instituto Elo e Nortecar Oficina, são estudos conceituais. Eles não representam clientes reais publicados; servem para demonstrar possibilidades de posicionamento, estrutura e identidade visual.
+Os projetos exibidos, como Instituto Elo e Nortecar Oficina, são estudos conceituais. Eles não representam clientes reais publicados; servem para demonstrar possibilidades de posicionamento, estrutura, conteúdo e identidade visual.
 
 ## Preview
 
-O projeto é uma single page application com visual escuro, acabamento prateado, animações suaves, cards interativos e layout responsivo para desktop e mobile.
+O projeto possui visual escuro, acabamento prateado, animações suaves, cards interativos e layout responsivo para desktop e mobile.
 
 Principais seções:
 
-- **Início**: apresentação direta do profissional e proposta de valor.
+- **Início**: proposta de valor e chamada principal.
 - **Serviços**: tipos de sites e soluções oferecidas.
 - **Projetos**: estudos conceituais com modal de detalhes.
-- **Público**: tipos de negócios que podem se beneficiar do site.
+- **Público**: segmentos de negócio atendidos pela proposta.
 - **Processo**: etapas desde entendimento até publicação.
 - **Contato**: formulário demonstrativo e informações de atendimento.
 
@@ -97,7 +101,7 @@ checks/             Arquivos auxiliares de verificação
 
 Arquivos importantes:
 
-- `src/data/content.js`: textos, serviços, projetos, etapas e informações do perfil.
+- `src/data/content.js`: textos, serviços, projetos, etapas e informações exibidas na interface.
 - `src/data/contact.js`: validação estrutural do WhatsApp e ponto de integração futura do formulário.
 - `src/styles/index.css`: base visual, responsividade, tokens e animações.
 - `src/styles/silver-theme.css`: camada de acabamento prateado e refinamentos visuais.
@@ -105,11 +109,11 @@ Arquivos importantes:
 
 ## Personalização
 
-Para adaptar o portfólio, edite principalmente `src/data/content.js`.
+Para adaptar o conteúdo da aplicação, edite principalmente `src/data/content.js`.
 
 Nele ficam:
 
-- nome e localização;
+- nome e localização exibidos na interface;
 - links de contato;
 - itens de navegação;
 - serviços oferecidos;
@@ -153,7 +157,7 @@ O projeto inclui cuidados como:
 
 ## Observações
 
-Este projeto não possui backend, domínio, hospedagem, métricas reais, depoimentos ou clientes publicados. Ele foi construído como portfólio e demonstração de interface para serviços de criação de sites.
+Este projeto não possui backend, domínio, hospedagem, métricas reais, depoimentos ou clientes publicados. Ele foi construído como demonstração de interface para serviços de criação de sites.
 
 As prévias visuais dos projetos são criadas com HTML, CSS e ícones. Nenhum template externo, imagem de cliente ou asset proprietário foi importado.
 
@@ -163,4 +167,4 @@ As fontes Poppins são fornecidas via `@fontsource/poppins`. Os ícones são for
 
 ---
 
-Desenvolvido por Eduardo Henrique para apresentar soluções digitais com design intencional, código cuidadoso e foco em negócios reais.
+Projeto criado para apresentar soluções digitais com design intencional, código cuidadoso e foco em negócios reais.
